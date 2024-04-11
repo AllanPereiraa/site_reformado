@@ -1,0 +1,247 @@
+/* ESTILIZAÇÃO GERAL */
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #000;
+}
+
+#container{
+    width: 900px;
+    /*background-color: green;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* ESTILIZAÇÃO DO TOPO */
+#topo{
+    height: 250px;
+    /*border: 1px solid red;*/
+}
+
+.logo img{
+    margin-left: 280px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    width: 100%;
+    float: left;
+    margin-left: 320px;
+}
+
+#topo ul li{
+    background: red;
+    padding: 5px;
+    margin: 2px;
+    float: left;
+}
+
+#topo ul a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1em;
+    display: block;
+    line-height: 1.5em;
+}
+
+#topo ul li a:hover{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* FORMATAÇÃO COLUNAS */
+#primario{
+    width: 440px;
+    float: left;
+    /*background-color: black;*/
+    margin: 0 10px 0 5px;
+}
+
+#secundario{
+    width: 440px;
+    float: left;
+    /*background-color: blue;*/
+}
+
+#terciario{
+    width: 890px;
+    /*background-color: aqua;*/
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+/* ESTILIZAÇÃO ÁREA FOTO */
+#area-foto{
+    margin: 5px;
+    width: 420px;
+    height: 550px;
+    overflow: hidden;
+}
+
+#area-foto img{
+    width: 420px;
+    border-left: 2px solid red;
+}
+
+#area-foto h1{
+    color: #FFF;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+#area-foto hr{
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+/* ESTILIZAÇÃO ÁREA AGENDA */
+#area-agenda{
+    width: 425px;
+    float: left;
+    /*border: 1px solid gray;*/
+    margin-right: 5px;
+    padding: 5px;
+    margin-bottom: 15px; /* MARGIN BOTTOM PARA SEPARAR A ÁREA DE AGENDA DA ÁREA DE NOTÍCIAS */
+}
+
+#area-agenda ul li{
+    border-bottom: 1px solid #CCC;
+    border-left: 2px solid red;
+    margin-top: 5px;
+    padding: 7px;
+}
+
+#area-agenda h1{
+    color: #FFF;
+    font-size: 25px;
+    border-bottom: 2px solid #CCC;
+    padding-bottom: 2px;
+}
+
+#area-agenda h2{
+    color: #FFF;
+    font-size: 1em;
+}
+
+#area-agenda p{
+    color: #FFF;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+#area-agenda ul li:hover{
+    font-size: 1.1em;
+    background-color: #ff0000;
+    cursor: pointer;
+    padding: 7px;
+}
+
+/* ESTILIZAÇÃO ÁREA NOTÍCIAS */
+#area-noticias h1{
+    color: #FFF;
+    font-size: 25px;
+    border-bottom: 2px solid #CCC;
+    padding-bottom: 2px;
+}
+
+#area-noticias ul li{
+    margin-top: 5px;
+    height: 100px;
+    border-left: 2px solid #FF0000;
+    overflow: hidden;
+    padding: 3px;
+}
+
+#area-noticias ul li p{
+    color: #FFF;
+    font-size: 0.9em;
+    padding-left: 90px;
+}
+
+#area-noticias ul li p, ul li p a{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: justify;
+    height: 100px;
+}
+
+#area-noticias ul li a{
+    color: #FFF;
+    text-decoration: none;
+    float: right;
+}
+
+#area-noticias ul li a:hover{
+    color: #000;
+}
+
+#area-noticias ul li img{
+    float: left;
+    width: 90px;
+    height: 100px;
+    margin-right: 5px;
+}
+
+#area-noticias ul li:hover{
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+/* ESTILIZAÇÃO YOUTUBE */
+.youtube{
+    width: 430px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.youtube h1{
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+/* ESTILIZAÇÃO SPOTIFY */
+.spotify{
+    width: 420px;
+    float: left;
+} 
+
+.spotify h1{
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+/* ESTILIZAÇÃO INSTAGRAM */
+.instagram{
+    width: 880px;
+} 
+
+.instagram h1{
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    text-align: center;
+    background: red;
+    width: 875px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
